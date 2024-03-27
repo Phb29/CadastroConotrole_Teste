@@ -1,7 +1,7 @@
 Projeto para Conotrole de Cadastro De clinete com geo localização 
 
 
-usado no projeto: Bando de dados PostgreSQL
+usado no projeto: Banco de dados PostgreSQL
 Angular 17.3.0 e  Angular material .
 jdk 17.0.10  
 Apache Maven 3.9.6
