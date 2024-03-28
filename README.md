@@ -1,10 +1,5 @@
 Projeto para Conotrole de Cadastro De clinete com geo localização 
 
 
-usado no projeto: Banco de dados PostgreSQL
-Angular 17.3.0 e  Angular material .
-jdk 17.0.10  
-Apache Maven 3.9.6
+Para iniciar o projeto, vá para a pasta ControleDeCadastro e abra o terminal sobre ela. Execute o seguinte comando para carregar as imagens do Docker: **docker-compose up --build**  Em seguida, abra o projeto WebSpa com a IDE de sua preferência. Recomendo o Visual Studio Code. Dentro do Visual Studio Code, navegue até a pasta "src", clique com o botão direito do mouse e selecione a opção para abrir o terminal. Dentro do terminal, execute o seguinte comando:  **ng serve -o**  Este comando irá iniciar o servidor local e abrir a aplicação no navegador padrão. 
 
-
-Devido ao prazo curto e à disponibilidade limitada de tempo, cometi o erro de adiar a containerização da aplicação para o final do projeto. Idealmente, deveria ter realizado a containerização logo após concluir a parte do back-end. esse erro me custou caro ,  infelizmente, devido ao horário que já era quase 17 . nao tive tempo para   terminar o restante das imagens . não houve tempo suficiente para realizar a containerização. Agradeço pela compreensão.
