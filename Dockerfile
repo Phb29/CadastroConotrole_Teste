@@ -1,9 +1,7 @@
-FROM maven:3.8-openjdk-17 as build
-WORKDIR /usr/src/app
-COPY . .
-RUN mvn package
+FROM openjdk:17-jdk-alpine
 
-FROM eclipse-temurin:17-jdk
-WORKDIR /usr/src/app
-COPY --from=build /usr/src/app/target/ControleDeCadastro-0.0.1-SNAPSHOT.jar .
-CMD ["java","-jar","ControleDeCadastro-0.0.1-SNAPSHOT.jar"]
+RUN mkdir /appp
+WORKDIR  /appp
+COPY  target/*.jar /app/app.jar
+
+CMD ["java","-jar","/app/app.jar"]
